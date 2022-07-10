@@ -1,0 +1,45 @@
+.grid-container{
+    display: grid;
+    grid-gap:30px;
+    height: 600px;
+    grid-template-areas: 
+    'searce header header header header'
+    'searce text text text1 text1 '
+    'searce text2 text2 text3 text3'
+    'searce text4 text4 text4 text4';
+    background-color:rgb(116, 112, 112);
+    padding:60px;
+}
+.grid-container > div{
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#item2{
+      grid-area: searce;
+}
+#item1{
+      grid-area: header;
+      height: 12px;
+}
+#item3{
+      grid-area: text;
+      
+}
+#item4{
+     grid-area: text1;
+    
+}
+#item5{
+    grid-area: text2;
+    
+}
+#item6{
+    grid-area: text3;
+    
+}
+#item7{
+    grid-area: text4;
+}
